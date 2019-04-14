@@ -26,7 +26,6 @@ export default class Auth {
 
     loadToCookie() {
         let value = JSON.stringify(this.auth);
-        // todo fix that
         value = Encode.base64encode(value);
         Cookie.setCookie(this.cookie_name, value, 30);
     }

@@ -12,7 +12,7 @@ export default class Router {
 			'path': '/',
 			'component': Home,
 			'name': 'home',
-			'text': 'Homeeee'
+			'text': 'Home'
 		}
 	}
 
@@ -32,14 +32,14 @@ export default class Router {
 				'path': '/',
 				'component': Home,
 				'name': 'home',
-				'text': 'Homeeee',
+				'text': 'Home',
 				'icon': 'user'
 			},
 			{
 				'path': '/about',
 				'component': About,
 				'name': 'about',
-				'text': 'Aaabout',
+				'text': 'About',
 				'icon': 'video-camera'
 			},
 		];
@@ -51,7 +51,7 @@ export default class Router {
 				'path': '/',
 				'component': Home,
 				'name': 'home',
-				'text': 'Homeeee',
+				'text': 'Home',
 				'icon': 'video-camera'
 			},
 		];
